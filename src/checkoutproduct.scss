@@ -1,0 +1,42 @@
+@mixin info {
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.checkoutproduct{
+    display: flex;
+    background-color: white;
+    margin-top: 0.4rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    .checkoutproduct_pic{
+        width: 20rem;
+        height: 20rem;
+        object-fit: contain;
+    }
+    .checkoutproduct_info{
+        line-height: 0.1rem;
+        margin-left: 3rem;
+        .checkoutproduct_title{
+            @include info();
+        line-height: 2rem;
+
+        }
+        .checkoutproduct_price{
+            @include info();
+        }
+        .checkoutproduct_rating{
+            display: flex;
+            margin-bottom: 1rem;
+            
+        }
+     & > button{
+        font-size: 1.3rem;
+        font-weight: 600;
+        background-color: #f0c14b;
+        border:0.1rem solid;
+        padding: 0.2rem 1rem;
+        border-color: #a88734 #9c7e31 #846a29;
+     }
+    }
+}

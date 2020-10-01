@@ -1,0 +1,30 @@
+.subtotal{
+    display: flex;
+    line-height: 1.4rem;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+    height: 12rem;
+    margin-left: 0.2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: linear-gradient(to right,#FCF6F5,#669DB3) ;
+    border: 0.1rem solid #a88734 #9c7e31 #846a29; 
+    border-radius: 1rem;
+    .subtotal_gift{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        & >input {
+            margin-right: 0.5rem;
+        }
+    }
+    & >button {
+        font-size: 1.3rem;
+        font-weight: 600;
+        background-color: #f0c14b;
+        border:0.1rem solid;
+        padding: 0.2rem 1rem;
+        border-color: #a88734 #9c7e31 #846a29;
+    }
+}

@@ -1,0 +1,17 @@
+$mobile :480px;
+$ipad :720px;
+$laptop:1280px;
+
+@media screen and  (max-width: $ipad){
+html{
+    font-size: 50%;
+}
+    
+}
+
+@media screen and (max-width: $mobile){
+    html{
+        font-size: 40%;
+    }
+        
+    }
